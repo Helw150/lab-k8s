@@ -7,4 +7,5 @@ kubectl create -f es-client.yaml
 kubectl rollout status -f es-client.yaml
 kubectl create -f es-data.yaml
 kubectl rollout status -f es-data.yaml
+kubectl create -f es-curator-config.yaml
 kubectl create -f es-curator.yaml
